@@ -58,15 +58,15 @@
             Console.WriteLine();
             Console.WriteLine("Here are five random numbers.");
             Console.WriteLine();
-            Console.WriteLine(generator.Next(min, max) + generator.NextDouble(min1,max1));
+            Console.WriteLine(generator.Next(min, max) + generator.NextDouble());
             Console.WriteLine();
-            Console.WriteLine(generator.Next(min, max) + generator.NextDouble(min1,max1));
+            Console.WriteLine(generator.Next(min, max) + generator.NextDouble());
             Console.WriteLine();
-            Console.WriteLine(generator.Next(min, max) + generator.NextDouble(min1, max1));
+            Console.WriteLine(generator.Next(min, max) + generator.NextDouble());
             Console.WriteLine();
-            Console.WriteLine(generator.Next(min, max) + generator.NextDouble(min1, max1));
+            Console.WriteLine(generator.Next(min, max) + generator.NextDouble());
             Console.WriteLine();
-            Console.WriteLine(generator.Next(min, max) + generator.NextDouble(min1, max1));
+            Console.WriteLine(generator.Next(min, max) + generator.NextDouble());
             Console.WriteLine();
         }
     }
